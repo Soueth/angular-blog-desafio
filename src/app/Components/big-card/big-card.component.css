@@ -62,6 +62,7 @@
     background-color: #0d1dfc;
     border: solid #f1f1f1 3px;
     color: #f1f1f1;
+    cursor: pointer;
 }
 
 .container__title > h2 > a {

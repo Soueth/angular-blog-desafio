@@ -1,0 +1,16 @@
+.container__menu > ul > li > a {
+    font-family: 'Arial';
+    color: #f1f1f1d5;
+    text-decoration: none;
+}
+
+.container__menu > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__menu > ul > li {
+    margin-right: 50px;
+    list-style: none;
+    font-size: 20px;
+}

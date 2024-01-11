@@ -2,6 +2,7 @@
     width: auto;
     height:100vh; 
     background-image: url('/../assets/page-head-img.jpg');
+    margin-top: -20px;
     
     background-size: cover; 
     background-repeat: no-repeat;
@@ -35,4 +36,11 @@
 .text > p > a {
     color: #1fe5f3d3;
     font-weight: bolder;
+}
+
+.container__menu {
+    display: flex;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 430px;
 }
