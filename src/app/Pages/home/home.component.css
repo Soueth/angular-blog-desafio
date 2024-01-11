@@ -1,0 +1,14 @@
+.container__articles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.container__all-small-cards {
+    margin-left: 25px;
+}
+
+.container__all-small-cards > h2 {
+    margin-bottom: 20px;
+}

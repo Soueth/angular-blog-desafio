@@ -1,5 +1,5 @@
 .container__big-card {
-    width: 67%;
+    width: 800px;
     height: 250px;
     display: flex;
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 .container__image > img {
-    width: 334px;
+    width: 350px;
     margin-top: 3%;
     margin-left: 4%;
     margin-right: 4%;
@@ -21,13 +21,14 @@
     box-sizing: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 13px;
     width: 85%;
 }
 
 .container__content > #text {
     box-sizing: border-box;
     justify-content: center;
-    height: 75%;
+    height: 67%;
 }
 
 .container__title {
@@ -57,5 +58,13 @@
 .container__button > button {
     width: 300px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 10px;
+    background-color: #0d1dfc;
+    border: solid #f1f1f1 3px;
+    color: #f1f1f1;
+}
+
+.container__title > h2 > a {
+    color: black;
+    text-decoration: none;
 }

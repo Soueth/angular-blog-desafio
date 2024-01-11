@@ -1,0 +1,22 @@
+.container__small-card {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    margin-top: 15px;
+}
+
+.container__small-card > img {
+    width: 70px;
+}
+
+.container__small-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.container__small-card-text > h3 > a {
+    text-decoration: none;
+    color: black;
+}
