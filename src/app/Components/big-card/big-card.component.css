@@ -1,0 +1,63 @@
+.container__big-card {
+    border: solid blue 5px;
+    width: 67%;
+    height: 250px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.container__image {
+    width: 518px;
+}
+
+.container__image > img {
+    width: 334px;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.container__content {
+    box-sizing: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid orange 3px;
+    width: 85%;
+}
+
+.container__content > #text {
+    border: solid red 3px;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 85%;
+}
+
+.container__title {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.container__date {
+    color: rgba(0, 0, 0, 0.671);
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.container__text {
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: 'Arial';
+}
+
+.container__button {
+    margin-top: 0.5%;
+    margin-left: 3%;
+}
+
+.container__button > button {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
