@@ -1,6 +1,6 @@
 .container__menu {
     position: relative;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     justify-content: center;
     transform: translateX(4vh);

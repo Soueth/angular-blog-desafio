@@ -1,0 +1,65 @@
+.container__article {
+    position: relative;
+    transform: translateY(-14vh);
+    height: auto;
+}
+
+.menu-box {
+    position: relative;
+    width: 100%;
+    height: 23vh;
+    background-image: url(/../assets/brown-white-wallpaper.jpg);
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.return {
+    margin-left: 15vw;
+    padding: 10vh;
+    position: relative;
+}
+
+.return > a {
+    position: absolute;
+    cursor: pointer;
+    font-size: 4vh;
+    text-decoration: none;
+    color: black;
+}
+
+.article-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.article-image > img {
+    width: 1000px;
+}
+
+.article-image > p {
+    margin-top: 1vh;
+    color: rgb(51, 50, 50);
+    font-family: 'Segoi UI';
+}
+
+.article-title {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.article-text {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    font-size: 3vh;
+    font-family: 'Arial';
+}
