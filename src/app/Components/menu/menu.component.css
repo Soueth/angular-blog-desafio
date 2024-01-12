@@ -1,3 +1,12 @@
+.container__menu {
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    transform: translateX(4vh);
+    margin-top: 10vh;
+}
+
 .container__menu > ul > li > a {
     font-family: 'Arial';
     color: #f1f1f1d5;
