@@ -1,23 +1,21 @@
 <div class="container__big-card">
   <div class="container__image">
     <img
-      src="https://img.freepik.com/vetores-gratis/fundo-abstrato-azul_1393-339.jpg"
+      src="{{ photoCover }}"
       alt=""
     />
   </div>
   <div class="container__content">
     <div id="text">
       <div class="container__title">
-        <h2><a href="">Título do POST</a></h2>
+        <h2><a href="">{{ titleCard }}</a></h2>
       </div>
       <div class="container__date">
         <p>data</p>
       </div>
       <div class="container__text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          sed dolor id erat tempus semper sed at ex. Etiam congue tellus eu sem
-          ullamcorper placerat. Duis ut pellentesque ex, eu molestie quam.
+          {{ articleText }}
         </p>
       </div>
     </div>
@@ -25,4 +23,3 @@
       <button>Ler Mais</button>
     </div>
   </div>
-</div>
